@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Práctica 6. Chessboard</title>
+  <style>
+    table.chessboard {
+      border: 1px solid black;
+      width: 400px;
+      height: 400px;
+      margin: auto;
+      border-collapse: collapse;
+      box-shadow: 100px 50px lightgray;
+    }
+
+    table.chessboard td {
+      border: 1px solid black;
+      width:50px;
+      background-color: lightgreen;
+    }
+    table.chessboard tr.impar>td:nth-of-type(odd)
+    {background-color: darkgreen}
+    table.chessboard tr.impar>td:nth-of-type(even)
+    {background-color: lightgreen}
+    table.chessboard tr.par>td:nth-of-type(odd)
+    {background-color: lightgreen}
+    table.chessboard tr.par>td:nth-of-type(even)
+    {background-color: darkgreen}
+  </style>
+</head>
+
+<body>
+  <h1>Práctica 6. Chessboard</h1>
+  <table class="chessboard">
+    <tr class="par">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="impar">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="par">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="impar">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="par">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="impar">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="par">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="impar">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
