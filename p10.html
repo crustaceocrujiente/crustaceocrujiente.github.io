@@ -1,43 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Práctica 10</title>
+
+  <style>
+    table.stripped {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px black solid;
+
+    }
+
+    th,
+    td {
+      padding: 6px;
+      text-align: left;
+      border: 1px solid black;
+
+    }
+
+    tr:nth-child(even){
+
+  background-color: green;
+    }
+    tr:nth-child(even):hover{
+
+    background-color: yellow;
+
+
+  </style>
+
 </head>
+
 <body>
+  <h1>Practica 10. zebra Stipped Table</h1>
   <table class="stripped">
     <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr> 
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>nombre</th>
+      <th>Voltage (v)</th>
+      <th>corriente(mA)</th>
+
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Diodo Led</td>
+      <td>3,3v</td>
+      <td>20 mA</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>potenciometro</td>
+      <td>24v</td>
+      <td>100 mA</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>MotorDC</td>
+      <td>12v</td>
+      <td>40 mA</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>LDR</td>
+      <td>12v</td>
+      <td>100 mA</td>
+    </tr>
+    <tr>
+      <td>Transitor NPN 2n2222</td>
+      <td>80v</td>
+      <td>100 mA</td>
     </tr>
   </table>
 </body>
+
 </html>
